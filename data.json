@@ -1,0 +1,17 @@
+[
+    {
+        "nombre": "USD",
+        "tipoDeCambio": 1500,
+        "paisDeOrigen": "Estados Unidos"
+    },
+    {
+        "nombre": "EUR",
+        "tipoDeCambio": 1600,
+        "paisDeOrigen": "Union Europea"
+    },
+    {
+        "nombre": "GBP",
+        "tipoDeCambio": 1200,
+        "paisDeOrigen": "Inglaterra"
+    }
+]

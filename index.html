@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Link de CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <main>
+        <h1>Conversor de Divisas</h1>
+        <h2>Divisas disponibles</h2>
+        <div id="contenedorDivisas"></div>
+        <div id="contenedorConversor">
+            <label for="cantidad">Ingrese el importe a convertir en ARS</label>
+            <input type="number" id="cantidadIngresada" name="cantidadIngresada">
+            <select name="divisa" id="divisaSeleccionada">
+                <option value="USD">Dólares</option>
+                <option value="EUR">Euros</option>
+                <option value="GBP">Libras</option>
+            </select>
+        </div>
+        <div id="contenedorBoton">
+            <button id="botonConvertir">Convertir</button>
+        </div>
+        <div class="contenedorResultado">
+            <h2>El resultado de la conversión es:</h2>
+            <p id="mostrarResultado"></p>
+        </div>
+        <div>
+            <h2>Historial de conversiones</h2>
+            <div id="contenedorHistorial">
+            </div>
+            <div id="contenedorBotonBorrarHistorial">
+                <button id="botonBorrar">Borrar Historial</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Link de Js de Sweet Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Link de Js -->
+    <script src="conversor.js"></script>
+</body>
+
+</html>

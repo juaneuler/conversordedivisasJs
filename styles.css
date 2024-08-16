@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #222831;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100%;
+}
+
+main h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+main h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+main #contenedorDivisas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+main #contenedorDivisas .tarjetaDivisa {
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 10px solid white;
+    border-radius: 20px;
+}
+
+main #contenedorConversor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+main #contenedorConversor #divisaSeleccionada {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+main #contenedorConversor #cantidadIngresada {
+    font-size: 20px;
+    padding: 5px;
+}
+
+main #contenedorBoton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+main #botonConvertir {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+main .contenedorResultado {
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .contenedorResultado h2, p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #222831;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.divConversion {
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+main #contenedorBotonBorrarHistorial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+main #botonBorrar {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
